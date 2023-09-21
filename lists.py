@@ -99,22 +99,23 @@ print(f'My_fruits : {my_fruit}')
 #     print(result)
 # spin_words('This sentence is a sentence')
 
-def likes(names):
-    likes_name = len(names)
-    if likes_name == 0:
-        print('no one likes this')
-    elif likes_name == 1:
-        print(f"{names[0]} likes this")
-    elif likes_name == 2:
-        print(f"{names[0]} and {names[1]} like this")
-    elif likes_name == 3:
-        print(f"{names[0]} , {names[1]}  and {names[2]} like this")
-    elif likes_name > 4 :
-        name = ' '.join(names[0:2])
-        print(f"{name} and {len(names[2:])} other like this")
-    else:
-        print(names)
-likes(['miirshe','ali','omar','dalfac','hanad'])
-likes(['miirshe','ramzi','jimale']) #'miirshe ramzi jimale'
-likes(['miirshe','ramzi'])
-likes(['miirshe'])
+# def likes(names):
+#     likes_name = len(names)
+#     if likes_name == 0:
+#         print('no one likes this')
+#     elif likes_name == 1:
+#         print(f"{names[0]} likes this")
+#     elif likes_name == 2:
+#         print(f"{names[0]} and {names[1]} like this")
+#     elif likes_name == 3:
+#         print(f"{names[0]} , {names[1]}  and {names[2]} like this")
+#     elif likes_name > 4 :
+#         name = ' '.join(names[0:2])
+#         print(f"{name} and {len(names[2:])} other like this")
+#     else:
+#         print(names)
+# likes(['miirshe','ali','omar','dalfac','hanad'])
+# likes(['miirshe','ramzi','jimale']) #'miirshe ramzi jimale'
+# likes(['miirshe','ramzi'])
+# likes(['miirshe'])
+
