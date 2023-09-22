@@ -11,3 +11,20 @@ def leap_year():
         if ZeroDivisionError :
             print(f'Zero is not numerato')
 leap_year()
+
+
+def list_fruits():
+    try:
+        fruits = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
+        index_fruits = [index for index in fruits]
+        for i in index_fruits:
+            print(f'{index_fruits.index(i)} : {i}')
+    except IndexError:
+        print('Index Out Of Range ')
+    else:
+        print('Enjoy🙋‍😇😇')
+    finally:
+        print('finally keyword every time executes')
+
+
+list_fruits()
