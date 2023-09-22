@@ -119,3 +119,23 @@ print(f'My_fruits : {my_fruit}')
 # likes(['miirshe','ramzi'])
 # likes(['miirshe'])
 
+def display_even_words(sentence):
+    words = sentence.split(' ')
+    even_words = []
+    odd_words = []
+    large_even_word = ''
+    get_large_even_word = ''
+    for word in words:
+        if len(word) % 2 == 0:
+            even_words.append(word)
+        else:
+            odd_words.append(word)
+    for even_word in even_words:
+        if len(even_word) > len(large_even_word):
+            get_large_even_word = even_word
+        large_even_word = even_word
+    print(f'large_even_word : {get_large_even_word}')
+    # print(f'even words : {even_words}\nodd words : {odd_words}')
+display_even_words('hi miirshe this cool and amazing code challenges')
+
+

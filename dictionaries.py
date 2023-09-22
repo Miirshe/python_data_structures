@@ -57,9 +57,7 @@ def create_dictionary():
             key = 'name'
             my_dict['username']=key;
             print(my_dict)
-
-
-
 create_dictionary()
+
 
 
